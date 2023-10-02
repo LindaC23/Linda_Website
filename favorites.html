@@ -12,7 +12,7 @@
     <h1>Linda Chen's Website</h1>
 
     <!--Navigation Bar-->
-    <ul>
+    <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="favorites.html" class="active">Favorites</a></li>
         <li><a href="skills.html">Skills</a></li>
@@ -22,18 +22,20 @@
     <!--Page Content-->
     <h2>Hobbies and Interests</h2>
     
+    <div class="description">
     <h3>Hobbies</h3>
     <ul>
         <li>
             <details>
-            <summary>Video Editing</summary>
-            <p>- Video editing has been a hobby of mine since elementary school. Although I am definitely not a professional, I still love doing it.
-                I love the creativity aspect of video editing and it's a great creative outlet for me.
-            </p>
-            <video controls>
-                <source src="video.mp4" type="video/mp4">
-                <source src="video.ogg" type="video/ogg">
-            </video>
+                <summary>Video Editing</summary>
+                <p> Video editing has been a hobby of mine since elementary school. Although I am definitely not a professional, I still love doing it.
+                    I love the creativity aspect of video editing and it's a great creative outlet for me.
+                </p>
+
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    <source src="video.ogg" type="video/ogg">
+                </video>
             </details>
         </li>
 
@@ -44,7 +46,7 @@
                     I particularly enjoy calming songs. For example, I really enjoy this particular song called: 꽃날 (황진이 OST). I have no idea what
                     it is from, but it's a really nice song!
                 </p>
-                <img src="images/photo4.png">
+                <img src="images/photo4.png" class="photo4">
                 <audio controls>
                     <source src="audio.ogg" type="audio/ogg">
                     <source src="audio.mp3" type="audio/mpeg">
@@ -52,6 +54,27 @@
                 </audio>
             </details>
         </li>
+
+        <li>
+            <details>
+                <summary>Drawing</summary>
+                <p>Although I don't consider myself to be very good at it, drawing is still a hobby of mine. I don't do it very often, but I've drawn a couple times for my chinese projects last year. (See below)
+                </p>
+                <img src="images/photo5.jpg" class="photo4">
+                <img src="images/photo6.jpg" class="photo4">
+            </details>
+        </li>
     </ul>
+
+    <h3>Interests</h3>
+    <p>One of my interests is actually child development! I was able to delve deeper into this interest over the summer when I interned at <a href ="https://pasesetter.org/" class="link">Partnership for After School Education (PASE)</a>, a nonprofit
+        organization focused on child development in after schools, this summer. I got some insight into the behind the scenes of fundraising and supporting the programs, rather than working with kids directly. However, as a Discovery Guide at the
+        New York Aquarium, I got to interact with children more directly and I learned different ways to help engage child and teach them best.
+     </p>
+
+    </div>
+
+    <footer>Created by Linda Chen &copy; 2023</footer>
+
 </body>
 </html>
